@@ -12,17 +12,16 @@ Se ha seleccionado un fichero [json](/animalcrossing_fish.json) con el que se re
 
 * Actualiza varios documentos utilizando los tres métodos de eliminación de MongoDB
 
-Consultas;
+A continuación se deberán realizar las consultas:
 
-Al menos incluye 5 consultas de datos simples 
+- Al menos incluye 5 consultas de datos simples 
+    * 
 
-Al menos 3 consultas con arrays 
+- Al menos 3 consultas con arrays 
+    *
 
-Al menos 3 consultas con documentos embebidos
+- Al menos 3 consultas con documentos embebidos
+    *
 
-Al menos 1 consulta de agrupación
-
-NOTA:  Debes utilizar en las consultas proyecciones, operadores, ordenación y los modificadores   sort y limit. Se valorará la complejidad de las mismas
-
-
-Debes incluir capturas que demuestren el buen funcionamiento de cada una de las operaciones realizadas.
+- Al menos 1 consulta de agrupación
+    * 
