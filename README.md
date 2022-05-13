@@ -14,12 +14,12 @@ Se ha seleccionado un fichero [json](/animalcrossing_fish.json) con el que se re
 
 A continuación se deberán realizar las consultas:
 
-- Al menos incluye 5 consultas de datos simples 
+- Consultas de datos simples:
     * Busca el pez de nombre Sea Bass cuyo precio es de 400 bayas.
     * Contar los peces que hay de río con precio menor de 500 bayas.
     * Mostrar los nombres de los peces con el tamaño de sombra más pequeño (smallest).
     * Obtener todos los peces que aparecen únicamente de septiembre a noviembre en el norte.
-    * Obtener los precios de los peces cuyos id estén entre 
+    * Obtener los precios de los peces cuyos id estén entre 70 y 80, los precios deben estar ordenados de menor a mayor.
 
 - Al menos 3 consultas con arrays 
     *
