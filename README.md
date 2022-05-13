@@ -27,7 +27,7 @@ A continuación se deberán realizar las consultas:
     * Eliminar las horas 5,6 y 7 del pez con id 16.
 
 - Al menos 3 consultas con documentos embebidos
-    *
+    * 
 
 - Al menos 1 consulta de agrupación
     * 
