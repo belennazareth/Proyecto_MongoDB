@@ -13,11 +13,23 @@
 
     * Mostrar los nombres de los peces con el tamaño de sombra más pequeño (smallest).
 
-            
+            db.fishes.find({"shadow_size": "Smallest"},{"name":1})
+
+        ![](/screenshots/captura3.png)
 
     * Obtener los 3 primeros peces cuyo nombre empiece por A.
+
+            db.fishes.find({"name":/A/},{"name":1}).limit(3)
+
+        ![](/screenshots/captura4.png)
+
     * Obtener los precios de los peces cuyos id estén entre 70 y 80, los precios deben estar ordenados de menor a mayor.
 
+            db.fishes.find({"id":{$gte:70,$lte:80}},{"price":1}).sort({"price":1})
+
+
+        ![](/screenshots/captura5.png)
+        
 - Consultas con arrays: 
     * Crea un array al pez koi donde se almacenarán los colores naranja, blanco, amarillo y negro.
     * Actualiza las horas del pez con id igual a dos añadiendo las cuatro y las cinco.
