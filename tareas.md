@@ -161,10 +161,44 @@
         )
 
     - InsertOne():
+
     ![](/screenshots/insertone.png)
+
     - InsertMany():
+
     ![](/screenshots/insertmany.png)
-    
+
  * Elimina varios documentos utilizando los dos métodos de eliminación de MongoDB
 
- * Actualiza varios documentos utilizando los tres métodos de eliminación de MongoDB
+        db.fishes.deleteOne({"id":81})
+
+        db.fishes.deleteMany({"shadow_size": "Largest"})
+
+    - DeleteOne():
+
+    ![](/screenshots/deleteone.png)
+
+    - DeleteMany():
+
+    ![](/screenshots/deletemany.png)
+
+ * Actualiza varios documentos utilizando los tres métodos de actualización de MongoDB
+
+        db.fishes.updateOne({"id":83},{$set:{"price":120}})
+
+        db.fishes.updateMany({"price":900},{$set:{"price":950}})
+
+        db.fishes.replaceOne({"location":"river"},{"price":50})
+
+    - UpdateOne():
+
+    ![](/screenshots/updateone.png)
+
+    - UpdateMany():
+
+    ![](/screenshots/updatemany.png)
+
+    - ReplaceOne():
+
+    ![](/screenshots/replaceone.png)
+
