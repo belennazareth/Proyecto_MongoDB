@@ -77,6 +77,8 @@
         ![](/screenshots/captura11.png)
 
 - Consulta de agrupación:
-    * Obten el numero de peces agrupados por precio ordenados de mayor a menor.
+    * Muestra el mayor precio de cada sombra de pez.
 
-            db.fishes.aggregate([{$group: {"id":"price",count:{$sum:1}}}])
+            db.fishes.aggregate([{$group: {"_id": {"Sombra Pez":"$shadow_size"},"Precio":{$max:"$price"}}}])
+
+        ![](/screenshots/captura12.png)
