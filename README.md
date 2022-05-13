@@ -24,7 +24,7 @@ A continuación se deberán realizar las consultas:
 - Al menos 3 consultas con arrays 
     * Crea un array al pez koi donde se almacenarán los colores naranja, blanco, amarillo y negro.
     * Actualiza las horas del pez con id igual a dos añadiendo las cuatro y las cinco.
-    * 
+    * Eliminar las horas 5,6 y 7 del pez con id 16.
 
 - Al menos 3 consultas con documentos embebidos
     *
