@@ -22,7 +22,9 @@ A continuación se deberán realizar las consultas:
     * Obtener los precios de los peces cuyos id estén entre 70 y 80, los precios deben estar ordenados de menor a mayor.
 
 - Al menos 3 consultas con arrays 
-    *
+    * Crea un array al pez koi donde se almacenarán los colores naranja, blanco, amarillo y negro.
+    * Actualiza las horas del pez con id igual a dos añadiendo las cuatro y las cinco.
+    * 
 
 - Al menos 3 consultas con documentos embebidos
     *
