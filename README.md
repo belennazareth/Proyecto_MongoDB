@@ -18,7 +18,7 @@ A continuación se deberán realizar las consultas:
     * Busca el pez de nombre Sea Bass cuyo precio es de 400 bayas.
     * Contar los peces que hay de río con precio menor de 500 bayas.
     * Mostrar los nombres de los peces con el tamaño de sombra más pequeño (smallest).
-    * Obtener todos los peces que aparecen únicamente de septiembre a noviembre en el norte.
+    *
     * Obtener los precios de los peces cuyos id estén entre 70 y 80, los precios deben estar ordenados de menor a mayor.
 
 - Al menos 3 consultas con arrays 
@@ -27,7 +27,7 @@ A continuación se deberán realizar las consultas:
     * Eliminar las horas 5,6 y 7 del pez con id 16.
 
 - Al menos 3 consultas con documentos embebidos
-    * 
+    * Obtener todos los peces que aparecen únicamente de septiembre a noviembre en el norte.
 
 - Al menos 1 consulta de agrupación
     * 
